@@ -8,14 +8,13 @@ Disassembly of section .text:
 #include "kernel/types.h"
 #include "user/user.h"
 
-
 int main(int argc, char *argv[])
 {
    0:	1141                	addi	sp,sp,-16
    2:	e406                	sd	ra,8(sp)
    4:	e022                	sd	s0,0(sp)
    6:	0800                	addi	s0,sp,16
-  if(argc != 2)
+  if (argc != 2)
    8:	4789                	li	a5,2
    a:	02f50063          	beq	a0,a5,2a <main+0x2a>
   {
@@ -31,11 +30,10 @@ int main(int argc, char *argv[])
   26:	2aa080e7          	jalr	682(ra) # 2cc <exit>
   }
 
-  int sleepNum=atoi(argv[1]);
+  sleep(atoi(argv[1]));
   2a:	6588                	ld	a0,8(a1)
   2c:	00000097          	auipc	ra,0x0
   30:	1a0080e7          	jalr	416(ra) # 1cc <atoi>
-  sleep(sleepNum);
   34:	00000097          	auipc	ra,0x0
   38:	328080e7          	jalr	808(ra) # 35c <sleep>
   printf("nothing happens for a little while.\n");
