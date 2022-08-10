@@ -1,9 +1,10 @@
 #include "kernel/types.h"
 #include "user/user.h"
 
+
 int main(int argc, char *argv[])
 {
-  if (argc != 2)
+  if(argc != 2)
   {
     fprintf(2, "there are something wrong in argument.\n");
     exit(1);

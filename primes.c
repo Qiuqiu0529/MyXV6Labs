@@ -9,7 +9,7 @@ int Process(int readin, int writeout)
   if (pid == 0)
   {
     close(writeout);
-    int prime, number;
+    int prime, number; 
     read(readin, &prime, sizeof(int));
     printf("prime %d\n", prime);
 
