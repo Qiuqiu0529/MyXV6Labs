@@ -32,7 +32,7 @@ kinit()
 
 
 uint64
-countfreemem(void) // for counting free memory
+freemem(void) // for counting free memory
 {
   acquire(&kmem.lock); // in case of race condition
   uint64 mem_bytes = 0;

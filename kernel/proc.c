@@ -86,7 +86,7 @@ allocpid() {
 }
 
 uint64
-countprocess(void)
+usedmem(void)
 { 
   // counting used process slots
   uint64 n = 0;

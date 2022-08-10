@@ -28,8 +28,8 @@ sys_sysinfo(void)
     return -1;
   
   struct sysinfo info;
-  info.freemem = countfreemem(); // kalloc.c
-  info.nproc = countprocess(); // proc.c
+  info.freemem = freemem(); // kalloc.c
+  info.nproc = usedmem(); // proc.c
   
   //  pick address, copy data
  
