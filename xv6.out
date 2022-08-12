@@ -1,0 +1,258 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+page table 0x0000000087f64000
+..0: pte 0x0000000021fd8001 pa 0x0000000087f60000
+.. ..0: pte 0x0000000021fd7c01 pa 0x0000000087f5f000
+.. .. ..0: pte 0x0000000021fd841f pa 0x0000000087f61000
+.. .. ..1: pte 0x0000000021fd780f pa 0x0000000087f5e000
+.. .. ..2: pte 0x0000000021fd741f pa 0x0000000087f5d000
+..255: pte 0x0000000021fd8c01 pa 0x0000000087f63000
+.. ..511: pte 0x0000000021fd8801 pa 0x0000000087f62000
+.. .. ..510: pte 0x0000000021fed807 pa 0x0000000087fb6000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+init: starting sh
+page table 0x0000000087f0f000
+..0: pte 0x0000000021fc2c01 pa 0x0000000087f0b000
+.. ..0: pte 0x0000000021fc2801 pa 0x0000000087f0a000
+.. .. ..0: pte 0x0000000021fc301f pa 0x0000000087f0c000
+.. .. ..1: pte 0x0000000021fc241f pa 0x0000000087f09000
+.. .. ..2: pte 0x0000000021fc200f pa 0x0000000087f08000
+.. .. ..3: pte 0x0000000021fc1c1f pa 0x0000000087f07000
+..255: pte 0x0000000021fc3801 pa 0x0000000087f0e000
+.. ..511: pte 0x0000000021fc3401 pa 0x0000000087f0d000
+.. .. ..510: pte 0x0000000021fd9407 pa 0x0000000087f65000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+$ usertests
+page table 0x0000000087eaa000
+..0: pte 0x0000000021fa9801 pa 0x0000000087ea6000
+.. ..0: pte 0x0000000021fa9401 pa 0x0000000087ea5000
+.. .. ..0: pte 0x0000000021fa9c1f pa 0x0000000087ea7000
+.. .. ..1: pte 0x0000000021fa901f pa 0x0000000087ea4000
+.. .. ..2: pte 0x0000000021fa8c1f pa 0x0000000087ea3000
+.. .. ..3: pte 0x0000000021fa881f pa 0x0000000087ea2000
+.. .. ..4: pte 0x0000000021fa841f pa 0x0000000087ea1000
+.. .. ..5: pte 0x0000000021fa801f pa 0x0000000087ea0000
+.. .. ..6: pte 0x0000000021fa7c1f pa 0x0000000087e9f000
+.. .. ..7: pte 0x0000000021fa781f pa 0x0000000087e9e000
+.. .. ..8: pte 0x0000000021fa741f pa 0x0000000087e9d000
+.. .. ..9: pte 0x0000000021fa701f pa 0x0000000087e9c000
+.. .. ..10: pte 0x0000000021fa6c1f pa 0x0000000087e9b000
+.. .. ..11: pte 0x0000000021fa681f pa 0x0000000087e9a000
+.. .. ..12: pte 0x0000000021fa641f pa 0x0000000087e99000
+.. .. ..13: pte 0x0000000021fa601f pa 0x0000000087e98000
+.. .. ..14: pte 0x0000000021fa5c1f pa 0x0000000087e97000
+.. .. ..15: pte 0x0000000021fa580f pa 0x0000000087e96000
+.. .. ..16: pte 0x0000000021fa541f pa 0x0000000087e95000
+..255: pte 0x0000000021faa401 pa 0x0000000087ea9000
+.. ..511: pte 0x0000000021faa001 pa 0x0000000087ea8000
+.. .. ..510: pte 0x0000000021fc4007 pa 0x0000000087f10000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+usertests starting
+test execout: page table 0x000000008027a000
+..0: pte 0x0000000020f06c01 pa 0x0000000083c1b000
+.. ..0: pte 0x0000000020f87801 pa 0x0000000083e1e000
+.. .. ..0: pte 0x0000000021edec1f pa 0x0000000087b7b000
+.. .. ..1: pte 0x00000000200db00f pa 0x000000008036c000
+.. .. ..2: pte 0x0000000021ec081f pa 0x0000000087b02000
+..255: pte 0x0000000021efd001 pa 0x0000000087bf4000
+.. ..511: pte 0x00000000200bcc01 pa 0x00000000802f3000
+.. .. ..510: pte 0x000000002007fc07 pa 0x00000000801ff000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+page table 0x0000000081ebc000
+..0: pte 0x0000000020599001 pa 0x0000000081664000
+.. ..0: pte 0x0000000020513801 pa 0x000000008144e000
+.. .. ..0: pte 0x000000002061e81f pa 0x000000008187a000
+.. .. ..1: pte 0x000000002048e00f pa 0x0000000081238000
+.. .. ..2: pte 0x000000002040801f pa 0x0000000081020000
+..255: pte 0x0000000020729801 pa 0x0000000081ca6000
+.. ..511: pte 0x00000000206a4001 pa 0x0000000081a90000
+.. .. ..510: pte 0x0000000021f3a807 pa 0x0000000087cea000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+page table 0x000000008600f000
+..0: pte 0x0000000021a1c401 pa 0x0000000086871000
+.. ..0: pte 0x0000000021aa2401 pa 0x0000000086a89000
+.. .. ..0: pte 0x000000002199641f pa 0x0000000086659000
+.. .. ..1: pte 0x0000000021b2840f pa 0x0000000086ca1000
+.. .. ..2: pte 0x0000000021baec1f pa 0x0000000086ebb000
+..255: pte 0x0000000021889c01 pa 0x0000000086227000
+.. ..511: pte 0x000000002190fc01 pa 0x000000008643f000
+.. .. ..510: pte 0x0000000020060807 pa 0x0000000080182000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+page table 0x0000000081e86000
+..0: pte 0x0000000020587001 pa 0x000000008161c000
+.. ..0: pte 0x0000000020500801 pa 0x0000000081402000
+.. .. ..0: pte 0x000000002060d81f pa 0x0000000081836000
+.. .. ..1: pte 0x000000002047980f pa 0x00000000811e6000
+.. .. ..2: pte 0x00000000203f281f pa 0x0000000080fca000
+..255: pte 0x000000002071b001 pa 0x0000000081c6c000
+.. ..511: pte 0x0000000020694801 pa 0x0000000081a52000
+.. .. ..510: pte 0x0000000021f59c07 pa 0x0000000087d67000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+page table 0x0000000086052000
+..0: pte 0x0000000021a31001 pa 0x00000000868c4000
+.. ..0: pte 0x0000000021ab8001 pa 0x0000000086ae0000
+.. .. ..0: pte 0x00000000219aa01f pa 0x00000000866a8000
+.. .. ..1: pte 0x0000000021b3f80f pa 0x0000000086cfe000
+.. .. ..2: pte 0x0000000021bc701f pa 0x0000000086f1c000
+..255: pte 0x000000002189b801 pa 0x000000008626e000
+.. ..511: pte 0x0000000021922801 pa 0x000000008648a000
+.. .. ..510: pte 0x0000000020044007 pa 0x0000000080110000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+OK
+test copyin: OK
+test copyout: OK
+test copyinstr1: OK
+test copyinstr2: OK
+test copyinstr3: OK
+test truncate1: OK
+test truncate2: OK
+test truncate3: OK
+test reparent2: OK
+test pgbug: OK
+test sbrkbugs: usertrap(): unexpected scause 0x000000000000000c pid=3234
+            sepc=0x0000000000005406 stval=0x0000000000005406
+usertrap(): unexpected scause 0x000000000000000c pid=3235
+            sepc=0x0000000000005406 stval=0x0000000000005406
+OK
+test badarg: OK
+test reparent: OK
+test twochildren: OK
+test forkfork: OK
+test forkforkfork: OK
+test argptest: OK
+test createdelete: OK
+test linkunlink: OK
+test linktest: OK
+test unlinkread: OK
+test concreate: OK
+test subdir: OK
+test fourfiles: OK
+test sharedfd: OK
+test exectest: page table 0x0000000086aac000
+..0: pte 0x0000000021aac401 pa 0x0000000086ab1000
+.. ..0: pte 0x0000000021aac801 pa 0x0000000086ab2000
+.. .. ..0: pte 0x0000000021abf41f pa 0x0000000086afd000
+.. .. ..1: pte 0x0000000021aac00f pa 0x0000000086ab0000
+.. .. ..2: pte 0x0000000021aabc1f pa 0x0000000086aaf000
+..255: pte 0x0000000021abd801 pa 0x0000000086af6000
+.. ..511: pte 0x0000000021abe801 pa 0x0000000086afa000
+.. .. ..510: pte 0x0000000021ad8407 pa 0x0000000086b61000
+.. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
+OK
+test bigargtest: OK
+test bigwrite: OK
+test bsstest: OK
+test sbrkbasic: OK
+test sbrkmuch: OK
+test kernmem: usertrap(): unexpected scause 0x000000000000000d pid=6214
+            sepc=0x000000000000201a stval=0x0000000080000000
+usertrap(): unexpected scause 0x000000000000000d pid=6215
+            sepc=0x000000000000201a stval=0x000000008000c350
+usertrap(): unexpected scause 0x000000000000000d pid=6216
+            sepc=0x000000000000201a stval=0x00000000800186a0
+usertrap(): unexpected scause 0x000000000000000d pid=6217
+            sepc=0x000000000000201a stval=0x00000000800249f0
+usertrap(): unexpected scause 0x000000000000000d pid=6218
+            sepc=0x000000000000201a stval=0x0000000080030d40
+usertrap(): unexpected scause 0x000000000000000d pid=6219
+            sepc=0x000000000000201a stval=0x000000008003d090
+usertrap(): unexpected scause 0x000000000000000d pid=6220
+            sepc=0x000000000000201a stval=0x00000000800493e0
+usertrap(): unexpected scause 0x000000000000000d pid=6221
+            sepc=0x000000000000201a stval=0x0000000080055730
+usertrap(): unexpected scause 0x000000000000000d pid=6222
+            sepc=0x000000000000201a stval=0x0000000080061a80
+usertrap(): unexpected scause 0x000000000000000d pid=6223
+            sepc=0x000000000000201a stval=0x000000008006ddd0
+usertrap(): unexpected scause 0x000000000000000d pid=6224
+            sepc=0x000000000000201a stval=0x000000008007a120
+usertrap(): unexpected scause 0x000000000000000d pid=6225
+            sepc=0x000000000000201a stval=0x0000000080086470
+usertrap(): unexpected scause 0x000000000000000d pid=6226
+            sepc=0x000000000000201a stval=0x00000000800927c0
+usertrap(): unexpected scause 0x000000000000000d pid=6227
+            sepc=0x000000000000201a stval=0x000000008009eb10
+usertrap(): unexpected scause 0x000000000000000d pid=6228
+            sepc=0x000000000000201a stval=0x00000000800aae60
+usertrap(): unexpected scause 0x000000000000000d pid=6229
+            sepc=0x000000000000201a stval=0x00000000800b71b0
+usertrap(): unexpected scause 0x000000000000000d pid=6230
+            sepc=0x000000000000201a stval=0x00000000800c3500
+usertrap(): unexpected scause 0x000000000000000d pid=6231
+            sepc=0x000000000000201a stval=0x00000000800cf850
+usertrap(): unexpected scause 0x000000000000000d pid=6232
+            sepc=0x000000000000201a stval=0x00000000800dbba0
+usertrap(): unexpected scause 0x000000000000000d pid=6233
+            sepc=0x000000000000201a stval=0x00000000800e7ef0
+usertrap(): unexpected scause 0x000000000000000d pid=6234
+            sepc=0x000000000000201a stval=0x00000000800f4240
+usertrap(): unexpected scause 0x000000000000000d pid=6235
+            sepc=0x000000000000201a stval=0x0000000080100590
+usertrap(): unexpected scause 0x000000000000000d pid=6236
+            sepc=0x000000000000201a stval=0x000000008010c8e0
+usertrap(): unexpected scause 0x000000000000000d pid=6237
+            sepc=0x000000000000201a stval=0x0000000080118c30
+usertrap(): unexpected scause 0x000000000000000d pid=6238
+            sepc=0x000000000000201a stval=0x0000000080124f80
+usertrap(): unexpected scause 0x000000000000000d pid=6239
+            sepc=0x000000000000201a stval=0x00000000801312d0
+usertrap(): unexpected scause 0x000000000000000d pid=6240
+            sepc=0x000000000000201a stval=0x000000008013d620
+usertrap(): unexpected scause 0x000000000000000d pid=6241
+            sepc=0x000000000000201a stval=0x0000000080149970
+usertrap(): unexpected scause 0x000000000000000d pid=6242
+            sepc=0x000000000000201a stval=0x0000000080155cc0
+usertrap(): unexpected scause 0x000000000000000d pid=6243
+            sepc=0x000000000000201a stval=0x0000000080162010
+usertrap(): unexpected scause 0x000000000000000d pid=6244
+            sepc=0x000000000000201a stval=0x000000008016e360
+usertrap(): unexpected scause 0x000000000000000d pid=6245
+            sepc=0x000000000000201a stval=0x000000008017a6b0
+usertrap(): unexpected scause 0x000000000000000d pid=6246
+            sepc=0x000000000000201a stval=0x0000000080186a00
+usertrap(): unexpected scause 0x000000000000000d pid=6247
+            sepc=0x000000000000201a stval=0x0000000080192d50
+usertrap(): unexpected scause 0x000000000000000d pid=6248
+            sepc=0x000000000000201a stval=0x000000008019f0a0
+usertrap(): unexpected scause 0x000000000000000d pid=6249
+            sepc=0x000000000000201a stval=0x00000000801ab3f0
+usertrap(): unexpected scause 0x000000000000000d pid=6250
+            sepc=0x000000000000201a stval=0x00000000801b7740
+usertrap(): unexpected scause 0x000000000000000d pid=6251
+            sepc=0x000000000000201a stval=0x00000000801c3a90
+usertrap(): unexpected scause 0x000000000000000d pid=6252
+            sepc=0x000000000000201a stval=0x00000000801cfde0
+usertrap(): unexpected scause 0x000000000000000d pid=6253
+            sepc=0x000000000000201a stval=0x00000000801dc130
+OK
+test sbrkfail: usertrap(): unexpected scause 0x000000000000000d pid=6265
+            sepc=0x0000000000003e7a stval=0x0000000000012000
+OK
+test sbrkarg: OK
+test validatetest: OK
+test stacktest: usertrap(): unexpected scause 0x000000000000000d pid=6269
+            sepc=0x0000000000002188 stval=0x000000000000fbc0
+OK
+test opentest: OK
+test writetest: OK
+test writebig: OK
+test createtest: OK
+test openiput: OK
+test exitiput: OK
+test iput: OK
+test mem: OK
+test pipe1: OK
+test preempt: kill... wait... OK
+test exitwait: OK
+test rmdot: OK
+test fourteen: OK
+test bigfile: OK
+test dirfile: OK
+test iref: OK
+test forktest: OK
+test bigdir: OK
+ALL TESTS PASSED
+$ qemu-system-riscv64: terminating on signal 15 from pid 38957 (make)
