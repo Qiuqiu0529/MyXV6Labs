@@ -1,0 +1,10 @@
+suppose key k1  k2 belong to one bucket;
+thread 1: try to set k1;
+thread 1: find k1 not exist,try to insert k1 in the tail of the bucket;
+--- scheduler switch to thread 2;
+thread 2: try to set k2;
+thread 2: find k2 not exist,try to insert k2 in the tail of the bucket;
+thread 2: alloc entry，insert k2 in the tail of the bucket;
+--- scheduler back to thread 1;
+thread 1: alloc entry，insert k1 in "the tail" of the bucket(actually the pos of k2);
+as a result,k2 disappear;
